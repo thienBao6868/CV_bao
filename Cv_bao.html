@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="Cv_bao.css" />
+  </head>
+  <body>
+    <!-- html header -->
+    <header>
+      <nav>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#project">Projects</a>
+        <a class="nav-link" href="#skill">Skill</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="information">
+        <div class="img-me">
+          <a href="https://www.facebook.com/"
+            ><img
+              class="img-bao"
+              src="hinh anh/avatar_1.jpg"
+              alt="My name is Bao"
+          /></a>
+        </div>
+        <div class="introduction">
+          <h1>INTRODUCTION</h1>
+          <p>My Name is <span class="show_name">Bao</span></p>
+          <p>I'm 26 years old</p>
+          <p>I'm form to HCM city</p>
+          <p>Full Stack Web Developer And Designer</p>
+          <button class="button-contact">
+            <a href="#contact">CONTACT ME</a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <!-- about me -->
+    <main>
+      <div class="aboutbao">
+        <div class="inforbao">
+          <div id="about">
+            <h1>About</h1>
+            <p>Hey, My name is Bao.</p>
+            <p>My field of Interests are programming and psychology.</p>
+            <p>
+              I have been coding for around 1 year ago. I love to design
+              websites and build full stack applications using MERN stack
+              preferably.
+            </p>
+            <p>
+              I am also a guest writer at daily.dev where I write technical
+              articles related to development and programming in general.
+            </p>
+            <div class="buttonabout">
+              <button class="button-contact">
+                <a href="#contact">CONTACT ME</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="img_aboutme">
+            <a href="https://www.facebook.com/">
+              <img
+                class="img-bao"
+                src="hinh anh/avatar_3.jpg"
+                alt="My name is bao"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- project -->
+      <section id="project_all">
+        <div class="swapper">
+          <div class="project1-text">
+            <h1 id="project">Projects</h1>
+          </div>
+          <div class="project-cardall">
+            <div class="project-card">
+              <img class="img_all" src="hinh anh/project-1.jpg" alt="img" />
+              <div class="title">
+                <h2>Blog-Site</h2>
+                <p>Tech Used _ Django Html Css</p>
+              </div>
+              <div>
+                <p class="paragrap">
+                  Website where I can host my blogs.Made with backend, and all
+                  the user posts are managed through admin.
+                </p>
+              </div>
+              <div class="button-project">
+                <button class="btn">Live site</button>
+                <button class="btn">Repo link</button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img class="img_all" src="hinh anh/project-2.png" alt="img" />
+              <div class="title">
+                <h2>Calculator</h2>
+                <p>Tech Used - Vanilla JavaScript</p>
+              </div>
+              <div>
+                <p class="paragrap">
+                  Calculator made using Html, CSS and JavaScript which can
+                  perform all the basic math operations.
+                </p>
+              </div>
+              <div class="button-project">
+                <button class="btn">Live site</button>
+                <button class="btn">Repo link</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Html section Skill -->
+      <section class="sec-skill">
+        <div class="header-skill">
+          <h1 id="skill">Skill</h1>
+        </div>
+        <div class="skill-all">
+          <div class="skill-a">
+            <div class="name-skill">
+              <span>Languages</span>
+            </div>
+            <div class="skill-b">
+              <div class="skill-b-1">
+                <img class="img-all" src="hinh anh/python.svg" alt="python" />
+                <p>Python</p>
+              </div>
+              <div class="skill-b-1">
+                <img
+                  class="img-all"
+                  src="hinh anh/javascript.svg"
+                  alt="Javascript"
+                />
+                <p>Javascript</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill-a">
+            <div class="name-skill">
+              <span>Technologies</span>
+            </div>
+            <div class="skill-b">
+              <div class="skill-b-1">
+                <img class="img-all" src="hinh anh/react.svg" alt="React" />
+                <p>React</p>
+              </div>
+              <div class="skill-b-1">
+                <img class="img-all" src="hinh anh/node-js.svg" alt="NodeJS" />
+                <p>NodeJs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section Time Line -->
+    </main>
+    <!-- Html Footer -->
+    <footer>
+      <form action="#">
+        <div class="form-contact">
+          <h2 id="contact">Contact Me</h2>
+          <input
+            class="nut-input"
+            type="text"
+            name="Your-name"
+            value="Your-name"
+          />
+          <input
+            class="nut-input"
+            type="text"
+            name="Your-email"
+            value="your-email"
+          />
+          <input
+            class="nut-input input-ms"
+            type="text"
+            name="Massage"
+            value="Massage"
+          />
+          <button type="submit" class="send-ms">Send message</button>
+        </div>
+      </form>
+      <div class="form-contact1">
+        <p>Contact me: I'm Bao. Thank you</p>
+      </div>
+    </footer>
+    <script src="Cv_bao.js"></script>
+  </body>
+</html>

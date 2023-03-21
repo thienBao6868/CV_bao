@@ -1,0 +1,256 @@
+/* begin css */
+:root {
+  box-sizing: border-box;
+}
+*,
+::before ::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Header */
+nav {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: black;
+}
+nav .nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+}
+nav .nav-link:hover {
+  color: aquamarine;
+  filter: brightness(150%);
+}
+header .information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #28414c;
+}
+header .introduction {
+  flex-basis: 60%;
+  color: white;
+}
+.introduction {
+  padding: 10px;
+  padding-left: 20px;
+}
+.introduction p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.information .introduction .button-contact {
+  padding: 10px;
+  border-radius: 5px;
+}
+.information .introduction .button-contact a {
+  text-decoration: none;
+  color: black;
+}
+.information .introduction .button-contact:hover {
+  background-color: #6d669d;
+  -webkit-box-shadow: 7px 12px 8px 0px rgba(0, 0, 0, 0.73);
+  box-shadow: 7px 12px 8px 0px rgba(0, 0, 0, 0.73);
+}
+header .img-me {
+  padding: 10px 0px;
+}
+header .img-me a {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+}
+header .img-me a img {
+  width: 70%;
+  height: auto;
+  padding: 10px 0px;
+}
+header .img-me a img:hover {
+  filter: brightness(120%);
+  -webkit-box-shadow: 7px 12px 3px 0px rgba(0, 0, 0, 0.73);
+  box-shadow: 7px 12px 3px 0px rgba(0, 0, 0, 0.73);
+}
+
+/* Main */
+
+/* about */
+.aboutbao .inforbao {
+  display: flex;
+  padding: 20px 10px;
+  background-color: #d9d6e9;
+}
+.aboutbao .inforbao #about {
+  flex-basis: 60%;
+  padding: 0px 10px;
+  font-weight: 600;
+}
+.aboutbao .inforbao .buttonabout .button-contact a {
+  text-decoration: none;
+}
+.aboutbao .inforbao .img_aboutme {
+  display: flex;
+  justify-content: center;
+  flex-basis: 40%;
+}
+.aboutbao .inforbao .img_aboutme a {
+  padding-left: 10px;
+}
+.aboutbao .inforbao .img_aboutme a img {
+  width: 80%;
+  height: auto;
+}
+.aboutbao .inforbao .img_aboutme img:hover {
+  filter: brightness(130%);
+  -webkit-box-shadow: 7px 12px 3px 0px rgba(0, 0, 0, 0.73);
+  box-shadow: 7px 12px 3px 0px rgba(0, 0, 0, 0.73);
+}
+
+/* Css Project */
+
+#project_all {
+  display: flex;
+  flex-direction: column;
+}
+#project_all .swapper {
+  background-color: #28414c;
+}
+.project1-text h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  background-color: #28414c;
+}
+.project-cardall {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  background-color: #28414c;
+}
+.project-card {
+  border: 5px solid wheat;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+  color: #080808;
+  background-color: whitesmoke;
+}
+.project-card:hover {
+  transform: scale(1.04);
+}
+
+.project-cardall .project-card .title h2 {
+  text-align: center;
+}
+.project-cardall .project-card img {
+  height: 100%;
+}
+.project-card .paragrap {
+  display: block;
+  padding: 3px;
+  line-height: 1.5rem;
+}
+
+.img_all {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-height: 76px;
+}
+.button-project {
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.button-project .btn {
+  flex-basis: 50%;
+  padding: 5px;
+}
+.button-project .btn:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+/* Css Skill */
+.sec-skill {
+  background-color: #d9d6e9;
+  padding-top: 10px;
+}
+.sec-skill .header-skill h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.skill-all {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-all .skill-a {
+  flex-basis: 30%;
+  border: 5px solid #0f0f10;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+.skill-all .skill-a .name-skill {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.skill-all .skill-a .skill-b {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px;
+  align-items: baseline;
+}
+.skill-all .skill-a .skill-b .skill-b-1 {
+  padding-top: 20px;
+  flex-basis: 40%;
+}
+.skill-all .skill-a .skill-b img {
+  width: 100%;
+}
+.skill-all .skill-a .skill-b p {
+  text-align: center;
+}
+
+/* CSS footer */
+form .form-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfe6e9;
+
+  /* border: 1px solid #6c5ce7; */
+}
+.form-contact1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: black;
+}
+.nut-input {
+  margin: 10px;
+  height: 20px;
+}
+.send-ms {
+  width: 300px;
+  height: 30px;
+}
+.input-ms {
+  height: 50px;
+}
